@@ -1,4 +1,7 @@
-__author__ = "red Ant"
+__author__ = "red ant"
+
+# ====================================================== FRENCH VERSION =================================== #
+
 
 # importing required libraries 
 from tkinter import *
@@ -149,67 +152,67 @@ def Pains():
             forma = ("Sandwich vide:", str(item5), str(p5),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich vide:\t\t\t" + str(item5) + "\t\t\tx" + str(p5) + "Fbu")
+            
             p5_5 = p5*item5
         if item6 > 0:
             forma = ("Sandwich végetarien:", str(item6), str(p6),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich végetarien:\t\t\t" + str(item6) + "\t\t\tx" + str(p6) + "Fbu")
+            
             p6_6 = p6*item6
         if item7 > 0:
             forma = ("Sandwich JambonOuFromage:", str(item7), str(p7),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich\nJambon ou Fromage:\t\t\t" + str(item7) + "\t\t\tx" + str(p7) + "Fbu")
+            
             p7_7 = p7*item7
         if item8 > 0:
             forma = ("Sandwich Jambon+Fromage:", str(item8), str(p8),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich\nJambon+Fromage:\t\t\t" + str(item8) + "\t\t\tx" + str(p8) + "Fbu")
+           
             p8_8 = p8*item8
         if item9 > 0:
             forma = ("Sandwich au Poulet:", str(item9), str(p9),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich au Poulet:\t\t\t" + str(item9) + "\t\t\tx" + str(p9) + "Fbu")
+            
             p9_9 = p9*item9
         if item10 > 0:
             forma = ("Sandwich au Thon:", str(item10), str(p10),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich au Thon:\t\t\t" + str(item10) + "\t\t\tx" + str(p10) + "Fbu")
+            
             p10_10 = p10*item10
         if item11 > 0:
             forma = ("Sandwich Club:", str(item11), str(p11),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSandwich Club:\t\t\t" + str(item11) + "\t\t\tx" + str(p11) + "Fbu")
+           
             p11_11 = p11*item11
         if item12 > 0:
             forma = ("Hamburger:", str(item12), str(p12),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nHamburger:\t\t\t" + str(item12) + "\t\t\tx" + str(p12) + "Fbu")
+            
             p12_12 = p12*item12
         if item13 > 0:
             forma = ("Cheeseburger:", str(item13), str(p13),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nCheeseburger:\t\t\t" + str(item13) + "\t\t\tx" + str(p13) + "Fbu")
+           
             p13_13 = p13*item13
         if item14 > 0:
             forma = ("Croque Monsieur:", str(item14), str(p14),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nCroque Monsieur:\t\t\t" + str(item14) + "\t\t\tx" + str(p14) + "Fbu")
+           
             p14_14 = p14*item14
         if item15 > 0:
             forma = ("Croque Madame:", str(item15), str(p15),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nCroque Madame:\t\t\t" + str(item15) + "\t\t\tx" + str(p15) + "Fbu")
+           
             p15_15 = p15*item15
 
         if item5 == 0 and item6 == 0 and item7 == 0 and item8 == 0 and item9 == 0 and item10 == 0 and item11 == 0 and item12 == 0 and item13 == 0 and item14 == 0 and item15:
@@ -369,27 +372,25 @@ def Soupes():
             forma = ("Soupe Creme Legume:", str(item1), str(p1),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSoupe Creme Legume:" + str(item1) + "x" + str(p1))
-            #print(p1)
+            
             p1_1 += p1*item1
-            #print(p1_1)
         if item2 > 0:
             forma = ("Soupe Creme Poisson:", str(item2), str(p2),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSoupe Creme Poisson:" + str(item2) + "x" + str(p2))
+          
             p2_2 += p2*item2
         if item3 > 0:
             forma = ("Soupe Creme Poulet:", str(item3), str(p3),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSoupe Creme Poulet:" + str(item3) + "x" + str(p3))
+            
             p3_3 += p3*item3
         if item4 > 0:
             forma = ("Soupe Creme Poireaux:", str(item4), str(p4),)
             fields = "{0:25}{1:25}{2:25}\n".format(forma[0], forma[1], "x"+forma[2])
             txt_receipt.insert(END, fields)
-            #txt_receipt.insert(END, f"\nSoupe Creme Poireaux:" + str(item4) + "x" + str(p4))
+          
             p4_4 += p4*item4
         if item1 == 0 and item2 == 0 and item3 == 0 and item4:
             txt_receipt.insert(END, "")
@@ -592,16 +593,15 @@ def Total():
     '''
     global Total_Gen
     # udusharizo
-    txt_receipt.insert(END, "{0:75}\n".format("_"*58))#"\n----------------------------------------------------------")
+    txt_receipt.insert(END, "{0:75}\n".format("_"*58))
     total_format = "{0:25}{1:25}{2:25}\n".format("Total:", '.', str(Total_Gen))
     txt_receipt.insert(END, total_format)
     footer = "{0:18} {1:25} {2:25}".format(".","MERCI A BIENTOT", ".")
     txt_receipt.insert(END, footer)
-    #txt_receipt.insert(END, f"\nTotal:\t\t\t\t\t\t"+str(Total_Gen) + " Fbu")
     Total_Gen *= 0
 
 # setting the file path where the recu number is
-filepath_recu = f'/Users/Desktop/Dossier_Des_recus/recu_no.csv'
+filepath_recu = f'/Dossier_Des_recus/recu_no.csv'
 # open the recu number
 with open(filepath_recu, 'r') as input_file:
     # read first line where there is a number of recu
@@ -638,7 +638,7 @@ def printR():
     with open(filepath_recu, 'w') as output_file:
         output_file.write(to_str)
 
-    filepath = f'/Users/Desktop/Dossier_Des_recus/Reçu_numero_{count_Recu}_date_{date_today}.csv'
+    filepath = f'Dossier_Des_recus/Reçu_numero_{count_Recu}_date_{date_today}.csv'
     with open(filepath, 'w') as output_file:
         text = txt_receipt.get("1.0", END)
         output_file.write(text)
@@ -670,7 +670,6 @@ def Effacer():
     txt_receipt.delete("1.0", END)
     header = "{0} {1} {2}\n".format("*"*25,"Facture", "*"*25)
     txt_receipt.insert(END, header)
-    #txt_receipt.insert(END, "********************** WELCOME AGAIN *********************\n")
     txt_receipt.insert(END, "{0}\n".format("Nom du resto"))
     txt_receipt.insert(END, "{0}\n".format("NIF:00000"))
     txt_receipt.insert(END, "{0}\n".format("Commune:"))
@@ -683,13 +682,9 @@ def Effacer():
     txt_receipt.insert(END, "\n-----------------------------------------------------------\n")
     fields = "{0:25}{1:25}{2:25}\n".format("Produit", "Quantité", "Prix U")
     txt_receipt.insert(END, fields)
-    #txt_receipt.insert(END, "\nProduit                   Quantité                   Prix\n")
+    
 
 # ------ text receipt section -----
-
-#txt_receipt = Text(right_frame_receipt, font=('arial', 16, 'bold'), bg="aliceblue", width=59, height=25)
-#txt_receipt.grid()
-
 txt_receipt = Text(right_frame_receipt, font=('TkFixedFont'), bg="aliceblue", width=59, height=25)
 txt_receipt.grid()
 
@@ -710,7 +705,6 @@ txt_receipt.insert(END, "{0:25}{1:25}{2:25}\n".format("Caissier:", ".", "Heure:"
 txt_receipt.insert(END, "\n-----------------------------------------------------------\n")
 fields = "{0:25}{1:25}{2:25}\n".format("Produit", "Quantité", "Prix U")
 txt_receipt.insert(END, fields)
-#txt_receipt.insert(END, "\nProduit                   Quantité                   Prix\n")
 # -----------------------
 ajouter_btn = ttk.Button(button_frame, text=".", style="TButton", command=Ajouter)
 ajouter_btn.grid(row=0, column=0, padx=2, pady=7)
