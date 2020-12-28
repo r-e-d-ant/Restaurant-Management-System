@@ -51,7 +51,7 @@ def Exit():
     if iExit > 0:
         app.destroy()
     else:
-        return
+        pass
         
 # --------------------------------------
 # ------Calcule Total variable--------
@@ -63,19 +63,19 @@ Total_Gen = 0
 
 
 def SoftDrinks():
-    return
+    pass
 
 
 def Alcohol():
-    return
+    pass
 
 
 def Vins():
-    return
+    pass
 
 
 def WhiskyVodka():
-    return
+    pass
 
 
 def Pains():
@@ -329,11 +329,11 @@ def Pains():
 
 
 def Jus():
-    return
+    pass
 
 
 def BoissonChauddes():
-    return
+    pass
 
 
 def Soupes():
@@ -444,50 +444,50 @@ def Soupes():
     # --------------------------------------
 
 def Omollette():
-    return
+    pass
 
 
 def Glaces():
-    return
+    pass
 
 
 def Portions():
-    return
+    pass
 
 
 def Legumes():
-    return
+    pass
 
 
 def Pates():
-    return
+    pass
 
 
 def Take_away():
-    return
+    pass
 
 
 def Pizza():
-    return
+    pass
 
 
 def ViandesRouges():
-    return
+    pass
 
 
 def AmusesBouches():
-    return
+    pass
 
 
 def Poissons():
-    return
+    pass
 
 
 def Volailles():
-    return
+    pass
 
 def Salades():
-    return
+    pass
 
 # ============================= Buttons ====================================
 # ------- row 0------------
