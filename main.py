@@ -601,7 +601,7 @@ def Total():
     Total_Gen *= 0
 
 # setting the file path where the recu number is
-filepath_recu = f'/Dossier_Des_recus/recu_no.csv'
+filepath_recu = f'Dossier_Des_recus/recu_no.csv'
 # open the recu number
 with open(filepath_recu, 'r') as input_file:
     # read first line where there is a number of recu
